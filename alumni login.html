@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Login - College Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Alumni Login</h1>
+        
+        <!-- Alumni Login Form -->
+        <form action="alumni_login_backend.php" method="POST">
+            <div class="input-group">
+                <label for="alumni-username">Username:</label>
+                <input type="text" id="alumni-username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="alumni-password">Password:</label>
+                <input type="password" id="alumni-password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Link back to the main portal page -->
+        <p><a href="index.html">Back to Main Portal</a></p>
+    </div>
+</body>
+</html>
