@@ -1,1 +1,3 @@
 # COLLEGE-PORTAL
+
+This is college-portal repo....
